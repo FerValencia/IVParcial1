@@ -13,6 +13,7 @@
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Adquisition.lvlib" Type="Library" URL="../Libraries/Adquisition/Adquisition.lvlib"/>
 			<Item Name="Analisis.lvlib" Type="Library" URL="../Libraries/Analisis/Analisis.lvlib"/>
+			<Item Name="Base de datos.lvlib" Type="Library" URL="../Libraries/Base de datos/Base de datos.lvlib"/>
 			<Item Name="Config.lvlib" Type="Library" URL="../Libraries/Config/Config.lvlib"/>
 			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
 			<Item Name="UI Module.lvlib" Type="Library" URL="../Libraries/UI Module/UI Module.lvlib"/>
@@ -20,10 +21,12 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Adquisition API.vi" Type="VI" URL="../Libraries/Adquisition/Test Adquisition API.vi"/>
 			<Item Name="Test Analisis API.vi" Type="VI" URL="../Libraries/Analisis/Test Analisis API.vi"/>
+			<Item Name="Test Base de datos API.vi" Type="VI" URL="../Libraries/Base de datos/Test Base de datos API.vi"/>
 			<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
 			<Item Name="Test UI Module API.vi" Type="VI" URL="../Libraries/UI Module/Test UI Module API.vi"/>
 		</Item>
+		<Item Name="Menu.rtm" Type="Document" URL="../Libraries/UI Module/Menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
